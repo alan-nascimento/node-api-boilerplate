@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+    "target": "es2016",
+    "module": "es2015",
+    "noEmit": true,
+    "allowJs": true,
+    "sourceMap": true,
+    "noEmitOnError": true,
+    "esModuleInterop": true,
+
+    /* Strict Type-Checking Options */
+    "strict": true,
+    "alwaysStrict": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+
+    /* Additional Checks */
+    "noUnusedLocals": true,
+    "noImplicitReturns": true,
+    "noUnusedParameters": true,
+
+    /* Module Resolution Options */
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "baseUrl": "./"
+    // "paths": {},
+  },
+  "include": ["./src/**/*"]
+}
